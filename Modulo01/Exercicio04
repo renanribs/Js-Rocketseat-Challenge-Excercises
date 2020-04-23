@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Exercicio 04</title>
+    </head>
+    <body>
+        <script>
+            function experiencia(anos) {
+                if(anos<=1){
+                    console.log("Iniciante")}
+                if(anos>=1 && anos<=3){
+                    console.log("Intermediario")
+                }
+                if(anos>=3 && anos<=6){
+                    console.log("Avançado")
+                } 
+                if(anos>=7) {
+                    console.log("Jedi Master")
+                }
+                
+            }
+            experiencia(5)
+        </script>
+    </body>
+</html>
